@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "todo-80025": {
+      "hosting": {
+        "Z-ANGULAR-TEMPLATE": [
+          "todo-80025"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "todo-80025"
+  }
+}

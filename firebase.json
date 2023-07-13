@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "Z-ANGULAR-TEMPLATE",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}
