@@ -14,7 +14,6 @@ import { ZDirectivesDirective } from './directives/z-directives.directive';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
-<<<<<<< HEAD
 import { NavbarComponent } from './components/layouts/navbar/navbar.component';
 import { FooterComponent } from './components/layouts/footer/footer.component';
 import { CategoryComponent } from './components/category/category.component';
@@ -39,8 +38,6 @@ import {
   getRemoteConfig,
 } from '@angular/fire/remote-config';
 import { provideStorage, getStorage } from '@angular/fire/storage';
-=======
->>>>>>> cc66cbda5e38a44e119dd0ad66e947b65734ee33
 
 @NgModule({
   declarations: [
@@ -51,13 +48,10 @@ import { provideStorage, getStorage } from '@angular/fire/storage';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-<<<<<<< HEAD
     NavbarComponent,
     FooterComponent,
     CategoryComponent,
     TodoComponent,
-=======
->>>>>>> cc66cbda5e38a44e119dd0ad66e947b65734ee33
   ],
   imports: [
     BrowserModule,
@@ -67,7 +61,6 @@ import { provideStorage, getStorage } from '@angular/fire/storage';
 
     FormsModule,
     ReactiveFormsModule,
-<<<<<<< HEAD
 
     HttpClientModule,
 
@@ -83,11 +76,6 @@ import { provideStorage, getStorage } from '@angular/fire/storage';
     provideStorage(() => getStorage()),
   ],
   providers: [ScreenTrackingService, UserTrackingService],
-=======
-    HttpClientModule,
-  ],
-  providers: [],
->>>>>>> cc66cbda5e38a44e119dd0ad66e947b65734ee33
   bootstrap: [AppComponent],
 })
 export class AppModule {}

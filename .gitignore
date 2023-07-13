@@ -1,10 +1,7 @@
 node_modules
-<<<<<<< HEAD
 .angular
 
 # Firebase
 .firebase
 *-debug.log
 .runtimeconfig.json
-=======
->>>>>>> cc66cbda5e38a44e119dd0ad66e947b65734ee33
