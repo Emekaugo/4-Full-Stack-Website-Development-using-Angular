@@ -53,11 +53,15 @@
                             "vendorChunk": true,
                             "extractLicenses": false,
                             "sourceMap": true,
+<<<<<<< HEAD
                             "namedChunks": true,
                             "fileReplacements": [{
                                 "replace": "src/environments/environment.ts",
                                 "with": "src/environments/environment.development.ts"
                             }]
+=======
+                            "namedChunks": true
+>>>>>>> cc66cbda5e38a44e119dd0ad66e947b65734ee33
                         }
                     },
                     "defaultConfiguration": "production"
@@ -93,6 +97,7 @@
                         ],
                         "scripts": []
                     }
+<<<<<<< HEAD
                 },
                 "deploy": {
                     "builder": "@angular/fire:deploy",
@@ -100,6 +105,8 @@
                         "version": 2,
                         "browserTarget": "Z-ANGULAR-TEMPLATE:build:production"
                     }
+=======
+>>>>>>> cc66cbda5e38a44e119dd0ad66e947b65734ee33
                 }
             }
         }

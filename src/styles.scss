@@ -19,6 +19,7 @@ $prefix: "mo-";
 @import "../node_modules/bootstrap/scss/grid";
 @import "../node_modules/bootstrap/scss/helpers";
 @import "../node_modules/bootstrap/scss/utilities/api";
+<<<<<<< HEAD
 body {
     background-image: url("./assets/img/Bckground.png");
     background-position: center;
@@ -48,3 +49,13 @@ input[type="text"] {
 .border-danger {
     border: 1px solid red !important;
 }
+=======
+// html,
+// body {
+//     height: 100%;
+// }
+// body {
+//     margin: 0;
+//     font-family: Roboto, "Helvetica Neue", sans-serif;
+// }
+>>>>>>> cc66cbda5e38a44e119dd0ad66e947b65734ee33
